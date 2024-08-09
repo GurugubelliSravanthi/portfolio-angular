@@ -1,4 +1,100 @@
-.container{
-  background-color: black;
-  color: aliceblue;
+.home-section {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.profile-image img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.profile-text {
+  margin-top: 20px;
+}
+
+.text-one {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.wave {
+  font-size: 28px;
+}
+
+.profile-name {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.text-two {
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.cta-buttons {
+  margin: 20px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-outline {
+  border: 2px solid #007bff;
+  color: #007bff;
+}
+
+.btn-outline:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 0 10px;
+  color: #333;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #007bff;
+}
+
+.fab {
+  font-family: 'Font Awesome 5 Brands', sans-serif;
 }
